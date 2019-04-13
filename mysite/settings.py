@@ -140,7 +140,7 @@ STATIC_URL = '/static/'
 
 ACCOUNT_LOGOUT_REDIRECT_URL = "/blog"
 
-# # ie if Heroku server
-# if 'DATABASE_URL' in os.environ:
-#     import dj_database_url
-#     DATABASES = {'default': dj_database_url.config()}
+# ie if Heroku server
+if 'DATABASE_URL' in os.environ:
+    import dj_database_url
+    DATABASES = {'default': dj_database_url.config()}
