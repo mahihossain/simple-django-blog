@@ -5,17 +5,19 @@
 <html lang="en">
 <head>
     <title>Django Blog</title>
-
+    
+    <!-- old version of bootstrap -->
     <link href="https://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/css/bootstrap.min.css"
           rel="stylesheet" media="screen"/>
     <script src="https://cdn.jsdelivr.net/webjars/jquery/2.1.4/jquery.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}"/>
 
 </head>
-<body>
+<body style="padding-top : 60px ;">
 
 <!-- navbar -->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="{% url 'blog:home' %}">Blog App</a>
