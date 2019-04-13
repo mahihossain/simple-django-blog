@@ -29,7 +29,7 @@ SECRET_KEY = '!4#q5!&k15_f#qe_kz-afv#qye_k+tekg1f2$%fxh6+a7l0y^8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sampledjangoblog.herokuapp.com','localhost',]
+ALLOWED_HOSTS = ['sampledjangoblog.herokuapp.com','localhost','127.0.0.1',]
 
 
 # Application definition
@@ -91,8 +91,8 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mysite',
-        'USER': 'fahim',
+        'NAME': 'blogdb',
+        'USER': 'mahi',
         'PASSWORD': '12345',
         'HOST': '127.0.0.1',
         'PORT': '',

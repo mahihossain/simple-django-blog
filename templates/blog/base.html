@@ -5,7 +5,9 @@
 <html lang="en">
 <head>
     <title>Django Blog</title>
-    
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
     <!-- old version of bootstrap -->
     <link href="https://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/css/bootstrap.min.css"
           rel="stylesheet" media="screen"/>
@@ -27,7 +29,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{% url 'blog:home' %}">
-                <img src="https://cdn.drawception.com/images/panels/2018/2-5/TOnkzpYASp-6.png" alt="Blog App" id="brand">
+                <img src="{%static "blog/home.jpeg"%}" alt="Blog App" id="brand">
             </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right overwrite">
@@ -64,6 +66,21 @@
         </div>
     </div>
 </nav>
+
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('{% static "blog/back.jpg" %}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Django Blog</h1>
+            <span class="subheading">A Simple Django Blog</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
 <div id="content">
     {% block content %}{% endblock %}
