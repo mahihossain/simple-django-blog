@@ -10,6 +10,7 @@ body{
     padding-bottom: 0px;
 }
 
+
 h1 {
     color: #0000FF;
 }
@@ -40,4 +41,24 @@ a:hover, a:focus, a:active {
 .pagination {
     display: block;
     text-align: center;
+}
+
+#nav-item-one{
+    background-color: #1F9FC6;
+}
+
+#nav-item-two{
+    background-color: #1F9FC6;
+}
+
+#nav-item-three{
+    background-color: #1F9FC6;
+}
+
+#nav-item-four{
+    background-color: #1F9FC6;
+}
+
+#nav-item-five{
+    background-color: #1F9FC6;
 }
