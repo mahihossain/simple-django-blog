@@ -163,4 +163,4 @@ venv.bak/
 
 *.json
 
-settings.py
+**/settings.py
