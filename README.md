@@ -11,7 +11,7 @@ Testing is done using **untitest** module.
 
 There is a login and registration functionality included.
 
-User has his own blog page, where he can add new blog posts. 
+User has his own blog page, where he can add new blog posts.
 Every authenticated user can comment on posts made by other users.
 Home page is paginated list of all posts.
 Non-authenticated users can see all blog posts, but cannot add new posts or comment.
@@ -105,9 +105,6 @@ Admin username: **admin**
 
 Admin password: **adminpassword**
 
-User username: **dusan**
-
-User password: **dusanpassword**
 
 ## Helper Tools
 
